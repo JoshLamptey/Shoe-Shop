@@ -21,5 +21,6 @@ from .views import home
 
 urlpatterns = [
     path('', home),
+    path('category/', include('api.category.urls')),
 ]
 
